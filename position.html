@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Position</title>
+        <link rel="stylesheet"  type="text/css" href="stylePosition.css">
+</head>
+
+<body>
+    <h2>Position: STATIC</h2>
+    <p>position static digunakan untuk mengatur element menjadi statis secara default.
+       Elemen akan mengikuti posisi berdasarkan alur normal web.
+       Elemen tidak dipengaruhi oleh properti seperti top, bottom, left dan right.</p>
+    <div class="static">
+       Elemen div ini memiliki posisi "static"
+    </div>
+    <h2>position: RELATIVE</h2>
+    <p>Elemen dengan posisi relative diposisikan relatif terhadap posisi normal</p>
+    <div class="relative">
+        ElemeN div ini memiliki posisi "relative" 
+    </div>
+    <h2>position: FIXED</h2>
+    <p>sebuah elemen dengan posisi fixed; diposisikan relatif terhadap viewport
+        yang berarti selalu tetap ditempat yang sama bahkan jika halaman di-scroll:</p>
+    <div class="fixed">
+        elemen div ini memiliki posisi "fixed"
+    </div>
+    <h2>Position: ABSOLUTE</h2>
+    <p>sebuah elemen dengan posisi: absolute diposisikan relatif terhadap elemen 
+       lain yang terdekat, bukan relatif terhadap viewport</p>
+    <div class="relative2">element div ini memiliki posisi "relative"
+        <div class="absolute">element div ini memiliki posisi "absolute"</div>
+    </div>
+    <h2>position: STICKY</h2>
+    <p>coba lakukan <b>scroll</b> sampai akhir halaman</p>
+    <div class="sticky">I am sticky</div>
+    <div style="padding-bottom:2000px">
+        <p>Istilah dengan paragraf apapun</p>
+        <p>bagian ini untuk mencoba posisi sticky</p>
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones
+        <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones
+    </div>
+</body>
+
+</html>
